@@ -1,0 +1,776 @@
+/* roboto-100 - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 100;
+  src: local(''),
+       url('../fonts/roboto-v30-latin-100.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/roboto-v30-latin-100.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* roboto-300 - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: local(''),
+       url('../fonts/roboto-v30-latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/roboto-v30-latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* roboto-regular - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('../fonts/roboto-v30-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/roboto-v30-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* roboto-500 - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: local(''),
+       url('../fonts/roboto-v30-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/roboto-v30-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* roboto-700 - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: local(''),
+       url('../fonts/roboto-v30-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/roboto-v30-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+
+/* forum-regular - latin */
+@font-face {
+  font-family: 'Forum';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/forum-v16-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/forum-v16-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/forum-v16-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/forum-v16-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/forum-v16-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/forum-v16-latin-regular.svg#Forum') format('svg'); /* Legacy iOS */
+}
+
+.otstup{
+	padding-bottom:246px;
+}
+
+.picture2_1{
+
+}
+
+.picture1_1{
+	display:flex;
+}
+
+.for_flex_of_chast_1_1{
+
+	background: url(../img/img_1_2.jpg) no-repeat;
+	background-size:800px 700px;
+	background-position:right;
+}
+
+
+
+.wrapper{
+	max-width:1440px;
+	margin:0 auto;
+}
+
+/*chast_1 starts */
+.chast_1{
+	background-color: black;
+}
+
+.for_flex_of_chast_1_1{
+	display: flex;
+	flex-direction: row;
+	justify-content:space-between;
+}
+
+.Louvre{
+	color:#FFFFFF;
+	font-weight: 400;
+	font-size: 28px;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-family: 'Forum';
+}
+
+.Welcome{
+	color:#FFFFFF;
+	font-weight: 400;
+	font-size: 80px;
+	line-height: 90px;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	font-family: 'Forum';
+	font-style: normal;
+	line-height: 90px;
+/* identical to box height, or 112% */
+
+letter-spacing: 5px;
+text-transform: uppercase;
+}
+
+.to_the_Louvre{
+	color:#FFFFFF;
+	font-weight: 400;
+	font-size: 80px;
+	line-height: 90px;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+
+	font-family: 'Forum';
+}
+
+.From{
+	color:#FFFFFF;
+	font-size: 28px;
+	line-height: 33px;
+	letter-spacing: 2px;
+	padding-bottom:76px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 300;
+	letter-spacing: 2px;
+
+}
+.wrapper_of_chast1{
+	display:flex;
+	justify-content:space-between;
+	
+}
+.gor_spisoc{
+	margin: 0;/* Обнуляем значение отступов */
+    padding: 4px;  /* Значение полей */
+	padding-bottom:190px;
+}
+
+.el_of_spisoc{
+	display: inline;  /* Отображать как строчный элемент */
+    margin-right: 5px; /* Отступ слева */
+    border: 1px solid #000;/* Рамка вокруг текста */
+    padding: 3px; /* Поля вокруг текста */
+	color:white;
+	font-weight: 100;
+	font-size: 22px;
+	line-height: 50px;
+	text-transform: uppercase;
+	font-family: 'Roboto';
+}
+
+.el_of_spisoc{
+	padding-right:76px;
+}
+
+.red_button{
+	background: #710707; /* Цвет фона */
+    color:white;/* Цвет текста */
+    padding: 10px; /* Поля вокруг текста */
+    border-radius: 10px; /* Уголки */
+	border: 1px solid #710707;
+	width:360px;
+	height:75px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 100;
+	font-size: 22px;
+	line-height: 26px;
+	
+}
+
+.red_button:hover{
+	background:#9D8665;
+	border: 1px solid #9D8665;
+}
+
+
+.chast_1_1{
+	background-color: black;
+	
+}
+/*chast_1 ends */
+
+/*chast_2 starts*/
+.chast_2_wrapper{
+
+}
+.Virtual_tour{
+	color:#9D8665;
+	font-weight: 400;
+	font-size: 80px;
+	line-height: 90px;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	border-bottom: 3px solid #710707;
+	padding-top:75px;
+	
+
+
+/* identical to box height, or 112% */
+
+letter-spacing: 5px;
+
+}
+
+.Royal_Palace_First{
+	color:#000000;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 35px;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	border-bottom: 3px solid #710707;
+	width:300px;
+	padding-bottom:23px;
+	font-family: 'Forum';
+	font-style: normal;
+	letter-spacing: 5px;
+
+
+}
+
+.Virtual_Tour_Just{
+	color:#000000;
+	font-weight: 100;
+	padding-top:10px;
+	font-size: 22px;
+	line-height: 26px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 100;
+	font-size: 22px;
+	line-height: 26px;
+	/* identical to box height */
+
+
+color: #000000;
+
+}
+
+.Google_Street_Panorama_View{
+	color:#000000;
+	font-weight: 100;
+	font-size: 18px;
+	line-height: 21px;
+	padding-bottom:77px;
+	font-family: 'Roboto';
+	font-style: normal;
+}
+
+.razd_part_of_6{
+	display:grid;
+	grid-template-columns: 33% 33% 33%;
+	grid-gap:20px;
+}
+
+.raz{
+	padding-top:75px;
+}
+/*chast_2 ends*/
+
+/*chast_3 starts*/
+
+.girl{
+	height:620px;
+	width:600px;
+	border: 10px solid #000000;
+	
+}
+
+.raz_of_chast_3{
+	display: flex;
+	flex-direction: row;
+	justify-content:space-between;
+}
+	
+.yellow_veil{
+	color: #fdff72;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 22px;
+	line-height: 38px;
+}
+
+.chast_3{
+	background-color:black;
+}
+
+.Picture_explore{
+	color:#FFFFFF;
+	padding-bottom:25px;
+	
+	font-family: 'Forum';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 80px;
+	line-height: 90px;
+	/* identical to box height, or 112% */
+	letter-spacing: 5px;
+	text-transform: uppercase;
+
+}
+
+.Las_Meninas{
+	color:#FFFFFF;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 22px;
+	line-height: 38px;
+	padding-top:75px;
+	padding-bottom:25px;
+	font-family: 'Roboto';
+}
+
+.Las_Meninas_1{
+	color:#FFFFFF;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 22px;
+	line-height: 38px;
+	padding-bottom:40px;
+	font-family: 'Roboto';
+}
+
+.Las_Meninass{
+	color:#FFFFFF;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 22px;
+	line-height: 38px;
+	padding-bottom:25px;
+	font-family: 'Roboto';
+	font-style: normal;
+	line-height: 38px;
+}
+
+.Las_Meninass_1{
+	color:#FFFFFF;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 22px;
+	line-height: 38px;
+	padding-bottom:40px;
+	font-family: 'Roboto';
+	font-style: normal;
+	line-height: 38px;
+}
+
+.Las_Meninasss{
+	color:#FFFFFF;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 22px;
+	line-height: 38px;
+	font-family: 'Roboto';
+	padding-bottom:25px;
+}
+
+.Las_Meninasss_1{
+	color:#FFFFFF;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 22px;
+	line-height: 38px;
+	font-family: 'Roboto';
+	padding-bottom:25px;
+	padding-bottom: 319px;
+}
+
+.Picture_explore{
+	color:#FFFFFF;
+	font-style: normal;
+font-weight: 400;
+font-size: 80px;
+line-height: 90px;
+letter-spacing: 5px;
+text-transform: uppercase;
+border-bottom: 3px solid #710707;
+	width:900px;
+	padding-top:75px;
+	padding-bottom:25px;
+}
+
+.Picture_explored{
+	font-weight: 300;
+	font-size: 22px;
+	line-height: 38px;
+}
+/*chast_3 ends*/
+
+/*chast_5 starts*/
+.chast_5{
+	background-color:black;
+
+}
+
+.Picture_explores{
+	color:#FFFFFF;
+	font-weight: 400;
+	font-size: 80px;
+	line-height: 90px;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	border-bottom: 3px solid #710707;
+	width:1000px;
+	padding-top:75px;
+	padding-bottom:25px;
+	font-family: 'Forum';
+	font-style: normal;
+
+/* identical to box height, or 112% */
+
+letter-spacing: 5px;
+text-transform: uppercase;
+}
+
+.picture5_1{
+	padding-top:75px;
+	padding-bottom:75px;
+}
+
+.rwq{
+	padding-top: 50px;
+}
+
+.buy_now{
+	background-color:#FFFFFF;
+	width: 175px;
+	height: 50px;
+	border-radius: 2px;
+	border: 1px solid #FFFFFF;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 22px;
+	line-height: 26px;
+	letter-spacing: 2px;
+	
+}
+
+.for_border_2{
+	border: 3px solid #FFFFFF;
+}
+
+.buy_now:hover{
+	background:#9D8665;
+	border: 1px solid #9D8665;
+}
+
+.Ticket_Type{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 33px;
+	color: #FFFFFF;
+	padding-top:75px;
+	padding-bottom:50px
+}
+
+.Amount{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 33px;
+	color: #FFFFFF;
+	padding-top:75px;
+	text-align:left;
+	padding-bottom:17px;
+}
+
+.container{
+	padding-bottom:45px;
+}
+
+.Basic_18{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 22px;
+	line-height: 26px;
+	/* identical to box height */
+	color: #FFFFFF;
+	padding-bottom:14px;
+}
+
+.Senior_65{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 22px;
+	line-height: 26px;
+	/* identical to box height */
+	color: #FFFFFF;
+	padding-top:35px;
+}
+
+.for_border{
+	border: 3px solid #FFFFFF;
+	width:150px;
+	height:50px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.figure{
+	color: #FFFFFF;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 38px;
+}
+
+.number{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 22px;
+	line-height: 26px;
+	color: #FFFFFF;
+	background-color:#000000;
+	border: 1px solid #000000;
+	
+}
+
+.obnul{
+	background-color:#000000;
+	border: 1px solid #000000;
+	
+}
+
+input{
+	text-align:center;
+}
+/*стилизация кнопок*/
+
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  color: #FFFFFF;
+  line-height: 26px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.container .checkmark:after {
+ 	top: 9px;
+	left: 9px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: white;
+}
+
+.razd_of_main_5{
+	display: flex;
+	flex-direction: row;
+	justify-content:space-around;
+}
+
+.for_center{
+	display:flex;
+	flex-direction:column;
+	justify-content: flex-end;
+}
+/*chast_5 ends*/
+
+
+/*chast_6 starts*/
+.chast_7{
+	color:#9D8665;
+}
+
+.Contacts{
+	font-weight: 400;
+	font-size: 80px;
+	line-height: 90px;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	border-bottom: 3px solid #710707;
+	width:1000px;
+}
+
+.Palais_Royal{
+	font-weight: 500;
+	font-size: 28px;
+	line-height: 33px;
+}
+
+.adress{
+	font-weight: 300;
+	font-size: 22px;
+	line-height: 26px;
+}
+
+.Contacts_p{
+	padding-top:75px;
+	padding-bottom:25px;
+	font-family: 'Forum';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 80px;
+	line-height: 90px;
+	/* identical to box height, or 112% */
+
+	letter-spacing: 5px;
+	text-transform: uppercase;
+}
+
+.Palais_Royal_p{
+	padding-top:75px;
+	padding-bottom:1px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 28px;
+	line-height: 33px;
+}
+
+.Musee_du_Louvre_p{
+	padding-bottom:36px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 28px;
+	line-height: 33px;
+}
+
+.adress_p{
+	padding-bottom:20px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 22px;
+	line-height: 26px;
+}
+
+.img_6_1{
+	height:620px;
+	width:960px;
+}
+
+.raz_of_chast_6{
+	display: flex;
+	flex-direction: row;
+	justify-content:space-between;
+	padding-top:76px;
+	padding-bottom:75px;
+}
+/*chast_6 ends*/
+
+/*chast_7 starts*/
+
+.Louvre_p{
+	padding-top:75px;
+}
+.chast_7{
+	background-color:black;
+}
+
+.foot{
+	color:#FFFFFF;
+	font-weight: 100;
+	font-size: 22px;
+	line-height: 50px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 100;
+	font-size: 22px;
+	line-height: 50px;
+	/* identical to box height, or 227% */
+
+	letter-spacing: 2px;
+}
+
+konec{
+	padding-bottom:89px;
+}
+
+.raz_of_block_7{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+}
+
+.pictu{
+	display:flex;
+	align-items:flex-end;
+	justify-content:space-between;
+}
+/*chast_7 ends*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*chast_5 ends*/
